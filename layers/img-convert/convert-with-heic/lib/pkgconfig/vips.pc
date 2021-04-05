@@ -1,0 +1,14 @@
+prefix=/var/task/vendor
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: vips
+Description: Image processing library
+Version: 8.9.0
+Requires.private:  glib-2.0 gmodule-2.0 gobject-2.0 gthread-2.0 libheif zlib libpng libjpeg
+Requires: gobject-2.0
+Libs: -L${libdir} -lvips 
+Libs.private: 
+Cflags: -I${includedir}
+
