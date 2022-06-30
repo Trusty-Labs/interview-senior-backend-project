@@ -24,9 +24,11 @@ The goal of this exercise is to evaluate how well you can create an image conver
 
 We would like you to provide a git repository (Github) along with a short description of your application. We should be able to deploy your project to our aws environment and run your front-end locally to test.
 
-```{
+```
+{
 "primary_line": "185 BAYSIDE VILLAGE PL",
 "city": "SAN FRANCISCO",
 "state": "CA",
 "zip_code": "94107"
 }
+```
